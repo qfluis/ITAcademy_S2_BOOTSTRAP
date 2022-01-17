@@ -1,0 +1,7 @@
+// @import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+// holis
+$color: rgb(255, 0, 200);
+body {
+    background-color: $color;
+}
