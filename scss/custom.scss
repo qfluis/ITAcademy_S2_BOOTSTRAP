@@ -1,7 +1,50 @@
-// @import "./node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules/bootstrap/scss/bootstrap";
-// holis
-$color: rgb(255, 0, 200);
-body {
-    background-color: $color;
+// BOOTSTRAP CUSTOM CSS
+$primary: #5265E1;   
+$secondary: #FA5959;      
+//$secondary: #E8EAF6;     
+
+// SITE CUSTOM CSS
+.contenedor-imgs{
+    position:relative;
+    //top: 100px;
+    //left:100px;
 }
+.img-app {
+    //box-shadow: 12rem 10rem $primary;
+    //opacity:0.9;
+    
+    position:relative;
+    z-index:8;
+    //max-width: 80%;
+    
+}
+.img-sombra{
+    width:100%;
+    height: 80%;
+    background-color: $primary;
+
+    position: absolute;
+    top:30%;
+    left:30%;    
+    border-radius: 40% 0 0 40%;    
+}
+
+
+/*
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;*/
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+// TMP BORRAR
+body {
+    background-color: aqua;
+}
+
+main {
+    background-color: white;
+}
+
