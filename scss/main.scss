@@ -27,26 +27,21 @@ $dark:          $gray-900 !default;*/
     
 }
 .img-sombra{
-    width:100%;
-    height: 80%;
-    background-color: $primary;
-
     position: absolute;
+    width:200%;
+    height: 80%;
     top:30%;
     left:30%;    
-    border-radius: 40% 0 0 40%;    
+    //border-radius: 40% 0 0 40%;
 }
 
 .sombra-feature {
-    width:100%;
-    height: 90%;
-    background-color: $primary;
-
     position: absolute;
+    width:200%;
+    height: 90%;
     top:25%;
-    right: 30%;
-
-    border-radius: 0 40% 40% 0;   
+    right: 15%;
+    //border-radius: 0 40% 40% 0;   
 }
 
 @media (min-width: 992px) { 
@@ -66,21 +61,8 @@ $dark:          $gray-900 !default;*/
     }    
 }
 
-
-
-
-
+// BOOTSTRAP STYLES
 @import "../node_modules/bootstrap/scss/bootstrap";
-// TMP BORRAR
-body {
-    background-color: aqua;
-}
-
-main {
-    background-color: white;
-}
-//
-
 
 // clases sobreescritas
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
@@ -99,6 +81,14 @@ main {
     background: none; */
 }
 
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("/images/icon-arrow.svg");           
+  }
+  
+  .accordion-button::after {
+    background-image: url("/images/icon-arrow.svg");
+  }
 
 
 

@@ -15,23 +15,19 @@ $dark:          $gray-900 !default;*/
 }
 
 .img-sombra {
-  width: 100%;
-  height: 80%;
-  background-color: #5265E1;
   position: absolute;
+  width: 200%;
+  height: 80%;
   top: 30%;
   left: 30%;
-  border-radius: 40% 0 0 40%;
 }
 
 .sombra-feature {
-  width: 100%;
-  height: 90%;
-  background-color: #5265E1;
   position: absolute;
+  width: 200%;
+  height: 90%;
   top: 25%;
-  right: 30%;
-  border-radius: 0 40% 40% 0;
+  right: 15%;
 }
 
 @media (min-width: 992px) {
@@ -12008,14 +12004,6 @@ fieldset:disabled .btn {
   }
 }
 
-body {
-  background-color: aqua;
-}
-
-main {
-  background-color: white;
-}
-
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #212529;
@@ -12029,4 +12017,12 @@ main {
   border: none;
   /*margin-bottom: -1px;
     background: none; */
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("/images/icon-arrow.svg");
+}
+
+.accordion-button::after {
+  background-image: url("/images/icon-arrow.svg");
 }
