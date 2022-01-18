@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <!-- BOOTSTRAP CSS + OWN CSS-->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <title>BOOKMARK</title>
 </head>
@@ -24,7 +24,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto me-lg-0 ms-lg-auto mb-2 mb-lg-0 align-items-center">
                         <li class="nav-item">
-                        <a class="nav-link text-dark " aria-current="page" href="#">FEATURES</a>
+                        <a class="nav-link text-dark " aria-current="page" href="#features">FEATURES</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link text-dark" aria-current="page" href="#">PRICING</a>
@@ -42,7 +42,7 @@
         </div>
     </header>
 
-    <section class="subheader container mt-5">
+    <section class="container mt-5">
         <div class="row align-items-center">
             <section class="col-12 col-lg-6 order-2 order-lg-1 mb-3 text-center text-lg-start">
                 <h1>A Simple Bookmark Manager</h1>
@@ -59,6 +59,95 @@
                 </div>
                 <div class="img-sombra">&nbsp;</div>
             </section>
+        </div>
+
+    </section>
+    <section class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <a name="features"></a>
+                <h1>Features</h1>
+                <p class="text-black-50">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <ul class="nav nav-tabs justify-content-center col-6" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active p-3" id="feature1-tab" data-bs-toggle="tab" data-bs-target="#feature1" type="button" role="tab" aria-controls="feature1" aria-selected="true">Simple Bookmarking</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link p-3" id="feature2-tab" data-bs-toggle="tab" data-bs-target="#feature2" type="button" role="tab" aria-controls="feature2" aria-selected="false">Speedy Searching</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link p-3" id="feature3-tab" data-bs-toggle="tab" data-bs-target="#feature3" type="button" role="tab" aria-controls="feature3" aria-selected="false">Easy Sharing</button>
+                </li>
+            </ul>
+            <div class="tab-content mt-5" id="myTabContent">
+                <div class="tab-pane fade show active" id="feature1" role="tabpanel" aria-labelledby="feature1-tab">
+
+                    <div class="row align-items-center">
+                        <section class="col-12 col-lg-6 contenedor-imgs mb-5">                
+                            <div class="img-feature"> 
+                                <img src="images/illustration-features-tab-1.svg" class="img-fluid" alt="features">
+                            </div>
+                            <div class="sombra-feature">&nbsp;</div>
+                        </section>
+
+                        <section class="col-12 col-lg-6 mb-3 mt-5 text-center text-lg-start">
+                            <h1>Bookmark in one click</h1>
+                            <p class="text-black-50" >Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                            <div>
+                                <button type="button" class="btn btn-primary shadow-sm me-2">More Info</button>
+            
+                            </div>
+                        </section>                        
+                    </div>  
+
+                </div>
+                <div class="tab-pane fade" id="feature2" role="tabpanel" aria-labelledby="feature2-tab">
+                   
+                    <div class="row align-items-center">
+                        <section class="col-12 col-lg-6 contenedor-imgs mb-5">                
+                            <div class="img-feature"> 
+                                <img src="images/illustration-features-tab-2.svg" class="img-fluid" alt="features">
+                            </div>
+                            <div class="sombra-feature">&nbsp;</div>
+                        </section>
+
+                        <section class="col-12 col-lg-6 mb-3 mt-5 text-center text-lg-start">
+                            <h1>Intelligent search</h1>
+                            <p class="text-black-50" >Our powerful search feature will help you find saved sites in no time at all. No need to trawi through all of your bookmarks.</p>
+                            <div>
+                                <button type="button" class="btn btn-primary shadow-sm me-2">More Info</button>
+            
+                            </div>
+                        </section>                        
+                    </div>
+                    
+                </div>
+                <div class="tab-pane fade" id="feature3" role="tabpanel" aria-labelledby="feature3-tab">
+                    
+                    <div class="row align-items-center">
+                        <section class="col-12 col-lg-6 contenedor-imgs mb-5">                
+                            <div class="img-feature"> 
+                                <img src="images/illustration-features-tab-3.svg" class="img-fluid" alt="features">
+                            </div>
+                            <div class="sombra-feature">&nbsp;</div>
+                        </section>
+
+                        <section class="col-12 col-lg-6 mb-3 mt-5 text-center text-lg-start">
+                            <h1>Share your bookmarks</h1>
+                            <p class="text-black-50" >Easily share your bookmarks and collections with other. Create a shareable link that you can send at the click of a button.</p>
+                            <div>
+                                <button type="button" class="btn btn-primary shadow-sm me-2">More Info</button>
+            
+                            </div>
+                        </section>                        
+                    </div>
+
+                </div>
+            </div>
         </div>
 
     </section>
