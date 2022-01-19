@@ -12011,7 +12011,6 @@ fieldset:disabled .btn {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #212529;
-  /*background-color: #fff;*/
   border: none;
   border-bottom: 0.25rem solid #FA5959;
 }
@@ -12019,8 +12018,6 @@ fieldset:disabled .btn {
 .nav-tabs .nav-link {
   color: #adb5bd;
   border: none;
-  /*margin-bottom: -1px;
-    background: none; */
 }
 
 .accordion-button:not(.collapsed)::after {

@@ -72,21 +72,15 @@ $dark:          $gray-900 !default;*/
 
 // OVERWRITE CSS
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    //color: #495057;
     color: $dark;
-    /*background-color: #fff;*/
     border: none;
-    border-bottom:0.25rem solid $secondary;
-    //border-color: #dee2e6 #dee2e6 #fff;
+    border-bottom:0.25rem solid $secondary;    
 }
 
 .nav-tabs .nav-link {
     color: $gray-500;
     border: none;
-    /*margin-bottom: -1px;
-    background: none; */
 }
-
 
 .accordion-button:not(.collapsed)::after {
     background-image: url("/images/icon-arrow_hover.svg");           
