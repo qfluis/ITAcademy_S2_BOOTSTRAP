@@ -68,7 +68,7 @@ $dark:          $gray-900 !default;*/
 // BOOTSTRAP STYLES
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// clases sobreescritas
+// OVERWRITE CSS
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     //color: #495057;
     color: $dark;
@@ -96,6 +96,10 @@ $dark:          $gray-900 !default;*/
 .people-joined{
     font-weight: bold;
     letter-spacing: 0.4rem;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    background-image: url("/images/icon-error.svg");
 }
 
 

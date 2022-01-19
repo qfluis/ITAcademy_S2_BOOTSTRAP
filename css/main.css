@@ -12035,3 +12035,7 @@ fieldset:disabled .btn {
   font-weight: bold;
   letter-spacing: 0.4rem;
 }
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  background-image: url("/images/icon-error.svg");
+}
