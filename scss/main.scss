@@ -48,6 +48,8 @@ $dark:          $gray-900 !default;*/
     background-color: #242946;
 }
 
+
+
 @media (min-width: 992px) { 
     body{
         background-color: chartreuse;
@@ -87,7 +89,7 @@ $dark:          $gray-900 !default;*/
 
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("/images/icon-arrow.svg");           
+    background-image: url("/images/icon-arrow_hover.svg");           
 }
   
 .accordion-button::after {
@@ -102,4 +104,62 @@ $dark:          $gray-900 !default;*/
     background-image: url("/images/icon-error.svg");
 }
 
+// Active States
+.nav-link:hover {
+    color: $secondary !important;
+}
 
+.btn-danger:hover {
+    color: $danger;
+    background-color: white;
+}
+
+.btn-secondary:hover {
+    color:$secondary !important;
+    background-color: white !important;
+}
+
+.btn-primary:hover {
+    color: $primary;
+    border-color: $primary;
+    background-color: white;
+    //font-weight: bold;
+}
+
+.btn-light:hover {
+    background-color: white;
+    border-color: $dark;
+}
+
+.accordion-button {
+    background-color: white !important;
+    color: $dark !important;
+}
+
+.accordion-button:hover {
+    color: $secondary !important;
+}
+
+.item-menu-footer:hover {
+    color:$secondary !important;
+}
+
+.facebook-icon {
+    display:inline-block;
+    width: 24px;
+    height:24px;
+    background-image: url("/images/icon-facebook.svg");
+    background-repeat: no-repeat;
+}
+
+.facebook-icon:hover {
+    background-image: url("/images/icon-facebook_hover.svg");
+}
+.twitter-icon {
+    @extend .facebook-icon;
+    background-image: url("/images/icon-twitter.svg");
+}
+
+.twitter-icon:hover {
+    background-image: url("/images/icon-twitter_hover.svg");
+}

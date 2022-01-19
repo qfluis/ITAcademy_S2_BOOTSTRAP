@@ -12024,7 +12024,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("/images/icon-arrow.svg");
+  background-image: url("/images/icon-arrow_hover.svg");
 }
 
 .accordion-button::after {
@@ -12038,4 +12038,62 @@ fieldset:disabled .btn {
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
   background-image: url("/images/icon-error.svg");
+}
+
+.nav-link:hover {
+  color: #FA5959 !important;
+}
+
+.btn-danger:hover {
+  color: #dc3545;
+  background-color: white;
+}
+
+.btn-secondary:hover {
+  color: #FA5959 !important;
+  background-color: white !important;
+}
+
+.btn-primary:hover {
+  color: #5265E1;
+  border-color: #5265E1;
+  background-color: white;
+}
+
+.btn-light:hover {
+  background-color: white;
+  border-color: #212529;
+}
+
+.accordion-button {
+  background-color: white !important;
+  color: #212529 !important;
+}
+
+.accordion-button:hover {
+  color: #FA5959 !important;
+}
+
+.item-menu-footer:hover {
+  color: #FA5959 !important;
+}
+
+.facebook-icon, .twitter-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("/images/icon-facebook.svg");
+  background-repeat: no-repeat;
+}
+
+.facebook-icon:hover, .twitter-icon:hover {
+  background-image: url("/images/icon-facebook_hover.svg");
+}
+
+.twitter-icon {
+  background-image: url("/images/icon-twitter.svg");
+}
+
+.twitter-icon:hover {
+  background-image: url("/images/icon-twitter_hover.svg");
 }
