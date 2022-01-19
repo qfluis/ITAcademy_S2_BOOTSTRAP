@@ -16,7 +16,7 @@ $dark:          $gray-900 !default;*/
 
 .img-sombra {
   position: absolute;
-  width: 200%;
+  width: 300%;
   height: 80%;
   top: 30%;
   left: 30%;
@@ -24,10 +24,14 @@ $dark:          $gray-900 !default;*/
 
 .sombra-feature {
   position: absolute;
-  width: 200%;
+  width: 300%;
   height: 90%;
   top: 25%;
-  right: 15%;
+  right: 25%;
+}
+
+.navbar-and-contacts {
+  background-color: #242946;
 }
 
 @media (min-width: 992px) {
@@ -12025,4 +12029,9 @@ fieldset:disabled .btn {
 
 .accordion-button::after {
   background-image: url("/images/icon-arrow.svg");
+}
+
+.people-joined {
+  font-weight: bold;
+  letter-spacing: 0.4rem;
 }
