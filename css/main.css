@@ -12037,27 +12037,27 @@ fieldset:disabled .btn {
   background-image: url("/images/icon-error.svg");
 }
 
-.nav-link:hover {
+.nav-link:active {
   color: #FA5959 !important;
 }
 
-.btn-danger:hover {
+.btn-danger:active {
   color: #dc3545;
   background-color: white;
 }
 
-.btn-secondary:hover {
+.btn-secondary:active {
   color: #FA5959 !important;
   background-color: white !important;
 }
 
-.btn-primary:hover {
+.btn-primary:active {
   color: #5265E1;
   border-color: #5265E1;
   background-color: white;
 }
 
-.btn-light:hover {
+.btn-light:active {
   background-color: white;
   border-color: #212529;
 }
@@ -12067,11 +12067,11 @@ fieldset:disabled .btn {
   color: #212529 !important;
 }
 
-.accordion-button:hover {
+.accordion-button:active {
   color: #FA5959 !important;
 }
 
-.item-menu-footer:hover {
+.item-menu-footer:active {
   color: #FA5959 !important;
 }
 
@@ -12083,7 +12083,7 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
 }
 
-.facebook-icon:hover, .twitter-icon:hover {
+.facebook-icon:active, .twitter-icon:active {
   background-image: url("/images/icon-facebook_hover.svg");
 }
 
@@ -12091,6 +12091,6 @@ fieldset:disabled .btn {
   background-image: url("/images/icon-twitter.svg");
 }
 
-.twitter-icon:hover {
+.twitter-icon:active {
   background-image: url("/images/icon-twitter_hover.svg");
 }

@@ -99,28 +99,28 @@ $dark:          $gray-900 !default;*/
 }
 
 // Active States
-.nav-link:hover {
+.nav-link:active {
     color: $secondary !important;
 }
 
-.btn-danger:hover {
+.btn-danger:active {
     color: $danger;
     background-color: white;
 }
 
-.btn-secondary:hover {
+.btn-secondary:active {
     color:$secondary !important;
     background-color: white !important;
 }
 
-.btn-primary:hover {
+.btn-primary:active {
     color: $primary;
     border-color: $primary;
     background-color: white;
     //font-weight: bold;
 }
 
-.btn-light:hover {
+.btn-light:active {
     background-color: white;
     border-color: $dark;
 }
@@ -130,11 +130,11 @@ $dark:          $gray-900 !default;*/
     color: $dark !important;
 }
 
-.accordion-button:hover {
+.accordion-button:active {
     color: $secondary !important;
 }
 
-.item-menu-footer:hover {
+.item-menu-footer:active {
     color:$secondary !important;
 }
 
@@ -146,7 +146,7 @@ $dark:          $gray-900 !default;*/
     background-repeat: no-repeat;
 }
 
-.facebook-icon:hover {
+.facebook-icon:active {
     background-image: url("/images/icon-facebook_hover.svg");
 }
 .twitter-icon {
@@ -154,6 +154,6 @@ $dark:          $gray-900 !default;*/
     background-image: url("/images/icon-twitter.svg");
 }
 
-.twitter-icon:hover {
+.twitter-icon:active {
     background-image: url("/images/icon-twitter_hover.svg");
 }
